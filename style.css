@@ -21,6 +21,7 @@ display: flex;
 }
 .industry1{
 /* width: 1440px; */
+margin: auto;
 height: 772px;
 background: #8EC2F2;
 }
@@ -77,6 +78,7 @@ text-align: center;
     background: #FAFAFA;
     height: 142px;
     padding: 50px 75px;
+    display: flex;
 }
 .additionals{
     /* width: 1440px; */
@@ -97,6 +99,9 @@ text-align: center;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
+}
+.navbar{
+    padding-left:6%;
 }
 .navbar ul li{
     list-style-type: none;
@@ -153,13 +158,13 @@ height: 52px;
 
 }
 .section{
-    padding: 100px;
+    margin: auto;
+    padding: 90px;
     text-align: center;
     flex-grow: 1;
     color: #FFFFFF;
 }
 .industry1{
-    text-align: center;
     color: #FFFFFF;
 }
 .industry-title{
@@ -168,23 +173,35 @@ height: 52px;
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
-    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.2px; 
+    
+}
+.intro{
+    text-align: center;
     padding: 30px 40px;
 }
 .tweets{
     background: #FFFFFF;
     color: #737373;
     width: 450px;
-    height: 288.01px;
-    display: inline-block;
-    padding: 30px 40px;
-    margin: 50px;
-    position: relative;    
+    height: 200px;
+    position: relative;  
+    margin: auto; 
+    padding: 30px 40px; 
 }
+.tweet-container{
+    display: flex;
+    padding: 30px 40px;
+    flex-wrap: wrap;
+}
+
 .tweets > img{
     position: absolute;
     top: 10px;
     left: -30px;
+    
 }
 .industry-images{
     display: flex;
@@ -200,9 +217,13 @@ height: 52px;
     position: absolute;
     width: 237px;
     height: 60px;
-    padding:10px;
+    margin:10px;
     text-align: justify;
-    top:330px;
+    top:370px;
+}
+
+.industry-images .image-caption > .adventure{
+    padding:10px 0;
 }
 .offers > div{
     border: 1px solid #DEDEDE;
@@ -210,10 +231,12 @@ height: 52px;
     background: #FFFFFF;
     margin: 50px;
     width: 327px;
-    height: 627px;
+    height: 530px;
 }
 .pricingdesc {
     color:#FFFFFF;
+    margin: auto;
+    padding: 30px 40px;
 }
 .pricing-title{
     font-family: 'Montserrat';
@@ -222,6 +245,7 @@ height: 52px;
     font-size: 40px;
     line-height: 57px;
     letter-spacing: 0.2px;
+    padding: 20px;
     color:#FFFFFF;
 }
 .offers{
@@ -272,8 +296,10 @@ color: #8EC2F2;
 }
 .offers ul li{
     list-style-image: url("images/greentick.png");
+    margin-left: 30px;
 }
 .offers ul .grey{
+    margin-left: 30px;
     list-style-image: url("images/greytick.png");
 }
 .additionals ul li{
@@ -294,14 +320,18 @@ color: #8EC2F2;
     right:20px;
     top: -20px;
 }
+.pricing .offers{
+    margin: auto;
+}
+
 .offer-title{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0.1px;
-color: #252B42;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
 }
 .bookappointment{
     padding: 15px 40px;
@@ -347,7 +377,7 @@ color: #252B42;
     letter-spacing: 0.2px;
     color: #FFFFFF;
     border: none;
-    margin-left:50%;
+    align-self: flex-end;
 }
 .consultancy-title{
     font-size: 24px;
@@ -370,8 +400,11 @@ color: #252B42;
 .section .section-title{
     margin: 20px;
 }
-.industry1 p {
-    padding: 20px;
+.tweet-content{
+    text-align: justify;
+}
+.account-name,.role,.rating,.tweet-content{
+    margin-left: 30px;
 }
 .account-name{
     font-size: 24px;
@@ -380,7 +413,7 @@ color: #252B42;
     color: #252B42;
 }
 .role{
-    font-weight: 600;
+font-weight: 600;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.2px;
@@ -422,8 +455,13 @@ color: #737373;
         flex-wrap: wrap;
         height:auto;
     }
-    .pricing .offers{
+    .offer-title{
+        margin: auto;
+        /* text-align: center; */
+    }
+    .pricing .offers {
         flex-direction: column;
+        margin: auto;
     }
     .industry1{
         height: auto;
@@ -438,8 +476,7 @@ color: #737373;
         flex-direction: column;
     }
     .appointment form{
-        padding: 100px 0px;
-        margin-left: 80px;
+        margin: auto;
         width: 400px;
         height: 300px;
     }
@@ -452,28 +489,58 @@ color: #737373;
         height:50px;
     }
     .appointment textarea{
-        width: 374px;
+        width: 286px;
         height:100px;
     }
     .additionals{
-        padding: 10%;
+        padding: 5% 20%;
         display: block;
         height: auto; 
     }
     .additionals ul{
-       text-align: center;
+       margin: auto;
     }
     .additionals ul li{
-     justify-content:left;
+     text-align: justify;
+     padding: 10px;
+     position: relative;
+     
+    }
+   
+    .additionals ul li .address{
+        position: absolute;
+        left:10%;
+        top: 10px;
+        
     }
     .industry-images .image-caption{
         position: relative;
+    }
+    .industry-images .image-caption{
+        top: 300px;
     }
     .footer{
         background: #252B42;
         height: auto;
         color: #FFFFFF;
-        /* width: 1440px; */
-    } 
-    
+    }
+  .tweet-container > .tweets{
+      flex-direction: column;
+      height: auto;
+      margin: 50px auto;
+  }
+    .tweets > img{
+        display:none;
+    }
+    .consultancy{
+        flex-direction: column;
+       
+    }
+    .contact-us{
+        align-self: flex-start;
+        margin-top:20px;
+    }
+    .additionals ul li img{
+        filter: opacity(0.4) drop-shadow(0 0 0 #23A6F0);
+    }
 }
