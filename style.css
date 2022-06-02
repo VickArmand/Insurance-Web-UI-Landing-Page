@@ -433,6 +433,22 @@ color: #737373;
 
 /* Responsiveness on small devices */
 @media screen and (max-width: 768px){
+    .content{
+        text-align: center;
+        height: auto;
+    }
+    .navbar ul li{
+        margin:0;
+    }
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .top-content button{
+        margin: 10px 0;
+        align-self: center;
+    }
     .top-content{
         height: auto;
     }
@@ -559,4 +575,11 @@ color: #737373;
     .socialmedia{
         display: flex;
     }
+    .socialmedia p{
+        width:270px;
+    }
+    .footer-content .socialmedia-icons{
+       margin: 30px auto;
+    }
+   
 }
