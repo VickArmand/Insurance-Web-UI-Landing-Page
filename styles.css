@@ -1,0 +1,506 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Montserrat';
+}
+.container{
+ padding: 50px 100px;
+}
+.hero{
+    background-image: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0, 0) 99.56%), url("images/top.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #FFFFFF;
+}
+.navbar{
+    display: flex;
+    padding: 50px 100px;
+}
+.navbar div {
+    position: absolute;
+    right: 50px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+.navbar > a,.navbar ul li a,.navbar div > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar div{
+    right:100px;
+}
+
+.brand-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 30px;
+    }
+.signup{
+    background: #23A6F0;
+    border-radius: 5px;
+    align-items: center;
+    padding: 15px 25px;
+    border:0;
+    color: #FFFFFF;
+}
+.login{
+    background: transparent;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 25px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+.quote{
+    background: #23A6F0;
+border-radius: 37px;
+border:0;
+padding: 15px 36px;
+width: 185px;
+color:#FFFFFF;
+height: 52px;
+text-decoration: none;
+}
+.learnmore{
+    padding: 15px 36px;
+    gap: 10px;
+    width: 154px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    color:#FFFFFF;
+    background-color: transparent;
+    border-radius: 37px;
+    text-decoration: none;
+    }
+    .about-us .container{
+        display: flex;
+        column-gap: 70px;
+    }
+.features .container,.industry-body{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.pricing-body{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    text-align: center;
+}
+.silver,.gold,.free{
+    padding: 50px 40px;
+}
+/* .amount-duration{
+    width:100px;
+    margin: auto;
+} */
+.pricing-header, .industry-header,.testimonials-header{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+.wrapper-text p{
+    width:290px;
+}
+.features .content-wrapper{
+    padding: 100px 50px;
+}
+.features .wrapper-title{
+    padding: 10px 0;
+}
+.features .content-wrapper{
+    text-align: center;
+}
+.features{
+    height: 435px;
+    background: #252B42;
+    color: #FFFFFF;
+}
+.testimonials{
+    height: 772px;
+background: #8EC2F2;
+color: #FFFFFF;
+}
+.industry1-image1{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/trees.jpg");
+}
+.industry1-image2{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%),  url("images/night.jpg");
+}
+.industry1-image3{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/money.jpg");
+}
+.industry1-image4{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/reports.jpg");
+}
+.industry-body{
+    position: relative;
+}
+.btnviewproject{
+    background: #23A6F0;
+    border-radius: 37px;
+    border:0;
+    padding: 15px 36px;
+    color:#FFFFFF;
+    width: 165px;
+    height: 42px;
+    text-decoration: none;
+}
+.image-caption{
+    position: absolute;
+    top:250px;
+    padding:0 20px;
+    width: 300px;
+    text-align: justify;
+}
+.image-caption p{
+    width: 200px;
+    padding:20px 0;
+}
+
+.account-name{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.testimonials-body{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+.testimonials-body .content-wrapper{
+    background: #FFFFFF;
+    color: #737373;
+    width: 450px;
+    height: 300px;
+    padding: 30px 50px; 
+    position: relative;
+    text-align: justify;
+}
+.testimonials-body .content-wrapper > img{
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    
+}
+.pricing-body ul li{
+    margin: 0 10px;
+    list-style-image: url("images/greentick.png");
+    text-align: justify;
+}
+.pricing-body ul .grey{
+    margin: 0 10px;
+    list-style-image: url("images/greytick.png");
+}
+.pricing-body > div{
+    
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin: 50px;
+    width: 327px;
+    height: 530px;
+    position: relative;
+}
+.freetrial{
+    padding: 15px 40px;
+    gap: 10px;
+    border: none;
+    width: 246px;
+    height: 52px;
+    background: #23A6F0;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.amount{
+    width: 54px;
+height: 57px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+color: #23A6F0;
+}
+.offer-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.duration{
+    width: 86px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #8EC2F2;
+}
+.pricing-body  div img{
+    position: absolute;
+    right:20px;
+    top: -20px;
+
+}
+
+.industry{
+    height: 879px;
+    background: #252B42;
+    color: #FFFFFF;
+}
+.pricing{
+    height: 1155px;
+background: #252B42;
+}
+.contact-us{
+    height: 670px;
+    background-image: linear-gradient(89.83deg, #FFFFFF 14.24%, #FFFFFF 14.25%, rgba(255, 255, 255, 0) 99.55%), url("images/appointment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us{
+    height: 272px;
+    background: #252B42;
+    color: #FFFFFF;
+}
+.about-us ul li{
+    list-style-type: none;
+}
+.footer-body{
+    display:flex;
+    column-gap:550px;
+}
+.title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding: 20px 0;
+    color:#FFFFFF;
+}
+.hero-body{
+    width: 400px;
+    margin: 100px 0;
+}
+
+.socialmedia-icons img{
+    padding:5px;
+}
+.hero-body p{
+    width: 300px;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.contact-us form{
+    width: 602px;
+    height: 571px;
+    
+}
+.contact-us textarea{
+    width: 574px;
+    height:100px;
+    margin: 20px 0px;
+}
+.contact-us-header p{
+    font-size: 40px;
+    line-height: 57px;
+}
+.contact-us input{
+    width: 286px;
+    height:50px;
+    margin: 20px 0px;
+}
+.contact-us select{
+    width: 286px;
+    height:50px;
+}
+.bookappointment{
+    padding: 15px 40px;
+    width: 218px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+.btncontact{
+    width: 160px;
+    height: 52px;
+    background: #23A6F0;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px;
+    text-decoration: none;
+
+}
+.contactextra .container{
+    display: flex;
+    column-gap: 500px;
+}
+.consultancy-title{
+    font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+color: #252B42;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 25px 50px;
+       }
+    .navbar div{
+        display: none;
+    }
+    .navbar{
+        background: #252B42;
+
+    }
+    .navbar ul li{
+        display: block;
+        padding: 10px 0;
+    }
+    .hero{
+        height: auto;
+    }
+    .hero-body div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .features{
+        height: auto;
+    }
+    .features .container{
+        flex-direction: column;
+    }
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-body {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .testimonials-body img{
+        display: none;
+    }
+    .industry{
+        height: auto;
+    }
+    .industry-body{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .image-caption{
+        position: relative;
+    }
+    .pricing{
+        height:auto;
+    }
+    .pricing-body{
+        flex-direction: column;
+    }
+    .contact-us{
+        height: auto;
+        background-size: cover;
+    }
+    .contact-us form{
+        width: 350px;
+        
+    }
+    .contact-us textarea{
+        width: 300px;
+        height:100px;
+        margin: 20px 0px;
+    }
+    .contact-us-header p{
+        font-size: 40px;
+        line-height: 57px;
+    }
+    .contact-us input{
+        width: 300px;
+        height:50px;
+        margin: 10px 0px;
+    }
+    .contact-us select{
+        width: 300px;
+        height:50px;
+        margin: 10px 0;
+    } 
+    .consultancy{
+        height:auto;
+    }
+    .consultancy-title{
+        width: 250px;
+    }
+    .contactextra .container{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .about-us{
+        height: auto;
+    }
+    .about-us .container{
+        flex-direction: column;
+        column-gap: 50px;
+    }
+    .about-us ul li{
+        padding: 10px 0;
+    }
+    .footer{
+        height: auto;
+        background: #252B42;
+        color: #FFFFFF;
+    }
+    .footer-body{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .footer-body .content-wrapper p{
+        width: 270px;
+
+    }
+    
+}
