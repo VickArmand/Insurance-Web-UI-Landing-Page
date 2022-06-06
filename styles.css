@@ -139,6 +139,7 @@ color: #FFFFFF;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/trees.jpg");
 }
 .industry1-image2{
@@ -146,12 +147,14 @@ color: #FFFFFF;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%),  url("images/night.jpg");
 }
 .industry1-image3{
     width: 300px;
     height: 400px;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/money.jpg");
 }
@@ -160,6 +163,7 @@ color: #FFFFFF;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%), url("images/reports.jpg");
 }
 .industry-body{
