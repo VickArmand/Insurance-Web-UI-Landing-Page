@@ -396,6 +396,7 @@ color: #252B42;
     }
     .navbar{
         background: #252B42;
+        flex-direction: column;
 
     }
     .navbar ul li{
@@ -404,17 +405,48 @@ color: #252B42;
     }
     .hero{
         height: auto;
+        margin: 0;
     }
+    .hero-body{
+      text-align: center;
+      margin: auto;
+      
+    }
+    .quote{
+        padding: 10px 36px;
+        width: 185px;
+        height: 42px;
+        background: #23A6F0;
+        border-radius: 37px;
+    }
+    .learnmore{
+        padding: 10px 36px;
+        width: 195px;
+        height: 42px;
+        border: 1px solid #23A6F0;
+        border-radius: 37px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #23A6F0;
+            }
+    .hero-body p{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+
     .hero-body div{
         display: flex;
         flex-direction: column;
         row-gap: 10px;
+        align-items: center;
     }
     .features{
         height: auto;
     }
     .features .container{
         flex-direction: column;
+        align-items: center;
     }
     .testimonials{
         height: auto;
@@ -422,6 +454,7 @@ color: #252B42;
     .testimonials-body {
         flex-direction: column;
         row-gap: 50px;
+        align-items: center;
     }
     .testimonials-body img{
         display: none;
@@ -432,6 +465,7 @@ color: #252B42;
     .industry-body{
         flex-direction: column;
         row-gap: 20px;
+        align-items: center;
     }
     .image-caption{
         position: relative;
@@ -441,6 +475,7 @@ color: #252B42;
     }
     .pricing-body{
         flex-direction: column;
+        align-items: center;
     }
     .contact-us{
         height: auto;
