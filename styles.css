@@ -402,10 +402,10 @@ color: #252B42;
     }
     .brand{
         display: flex;
-        row-gap: 5px;
     }
     .hide{
         display: inline-block;
+        right: 200px;
     }
     .navbar{
         background: #252B42;
@@ -469,8 +469,16 @@ color: #252B42;
         row-gap: 50px;
         align-items: center;
     }
+    .testimonials-body p{
+        width: 239px;
+        height: 240px;
+    }
     .testimonials-body img{
         display: none;
+    }
+    .testimonials-body .content-wrapper{
+        width: 400px;
+        height:450px;
     }
     .industry{
         height: auto;
