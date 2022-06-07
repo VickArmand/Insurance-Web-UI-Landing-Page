@@ -97,7 +97,7 @@ text-decoration: none;
 .pricing-body{
     display: flex;
     justify-content: center;
-    column-gap: 5px;
+    column-gap: 20px;
     text-align: center;
 }
 .silver,.gold,.free{
@@ -231,7 +231,6 @@ color: #FFFFFF;
     border: 1px solid #DEDEDE;
     border-radius: 5px;
     background: #FFFFFF;
-    margin: 50px;
     width: 327px;
     height: 530px;
     position: relative;
@@ -403,17 +402,14 @@ color: #252B42;
     }
     .brand{
         display: flex;
+        row-gap: 5px;
     }
     .hide{
         display: inline-block;
-        position: absolute;
-        right: 50px;
     }
     .navbar{
         background: #252B42;
         flex-direction: column;
-        justify-content: space-around;
-
 
     }
     .navbar ul li{
@@ -431,14 +427,14 @@ color: #252B42;
     }
     .quote{
         padding: 10px 36px;
-        width: 200px;
+        width: 185px;
         height: 42px;
         background: #23A6F0;
         border-radius: 37px;
     }
     .learnmore{
         padding: 10px 36px;
-        width: 175px;
+        width: 195px;
         height: 42px;
         border: 1px solid #23A6F0;
         border-radius: 37px;
@@ -476,14 +472,6 @@ color: #252B42;
     .testimonials-body img{
         display: none;
     }
-    .testimonials-body .content-wrapper{
-        width: 325px;
-        height: 408px;
-    }
-    .testimonials-body p{
-        width: 206px;
-        height: 240px;
-    }
     .industry{
         height: auto;
     }
@@ -500,6 +488,7 @@ color: #252B42;
     }
     .pricing-body{
         flex-direction: column;
+        row-gap: 20px;
         align-items: center;
     }
     .contact-us{
