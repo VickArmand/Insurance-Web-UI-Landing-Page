@@ -496,7 +496,7 @@ color: #252B42;
     }
     .pricing-body{
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 50px;
         align-items: center;
     }
     .contact-us{
